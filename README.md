@@ -4,8 +4,8 @@
 
 ## 使用
 
-- 将 teachermate 文件夹放入 JSBox 中。（你可以下载源码后，使用 JSBox 的 VSCode 插件很方便地进行安装）
-- 微信中打开微助教服务号，点击“我的”、”我的信息“、”个人信息“。进入详情页后，点击右上角省略号图标，点击复制链接按钮。
+- 将 teachermate 文件夹放入 JSBox 中。你可以[点击链接](https://xteko.com/redir?name=teachermate&url=https://github.com/BeBeBerr/teachermate-check-in/releases/download/v1.0/teachermate.box)扫码二维码无痛安装脚本。你可以在 JSBox 或系统相机中扫码，若使用微信扫描二维码，则请点击“在 Safari ”中打开。
+- 微信中打开微助教服务号，点击“我的”、“我的信息”、“个人信息”。进入详情页后，点击右上角省略号图标，点击复制链接按钮。
 
 <img src="https://raw.githubusercontent.com/BeBeBerr/teachermate-check-in/master/img/1.PNG" style="zoom:40%" />
 

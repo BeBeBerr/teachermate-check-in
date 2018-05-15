@@ -23,14 +23,15 @@
 
   <img src="https://raw.githubusercontent.com/BeBeBerr/teachermate-check-in/master/img/4.PNG" style="zoom:40%" />
 
-- 点击开始按钮后，每隔一段时间会尝试签到一次。点击停止按钮停止尝试。
+- 点击开始按钮后，每隔一段时间会尝试签到一次。当点击停止按钮，或尝试超过一定次数后将停止。
 
   <img src="https://raw.githubusercontent.com/BeBeBerr/teachermate-check-in/master/img/5.PNG" style="zoom:40%" />
 
 ## 注意
 
-- 程序还不完善，许多边界条件还没有考虑到。
-- 签到成功或放弃尝试后，请点击停止按钮。否则，脚本会不断在后台运行，除非 kill 掉 JSBox 本身。长时间高频率尝试签到可能存在风险。
+- 程序还不完善，许多边界条件还没有考虑到，请不要过分信赖。
+- 目前，连续尝试 20 次后会停止尝试。你可以在 `main.js` 中把相应的判断语句修改成你希望的次数。但是，长时间、高频率的签到行为可能存在风险。
+- 签到成功后，会弹出提示框，并显示名次。
 - 可以用来抢第一，不要逃课哦！
 
 ## 什么是 JSBox ？

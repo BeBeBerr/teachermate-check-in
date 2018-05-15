@@ -4,7 +4,7 @@
 
 ## 使用
 
-- 将 teachermate 文件夹放入 JSBox 中。你可以[点击链接](https://xteko.com/redir?name=teachermate&url=https://github.com/BeBeBerr/teachermate-check-in/releases/download/v1.0/teachermate.box)扫码二维码无痛安装脚本。你可以在 JSBox 或系统相机中扫码，若使用微信扫描二维码，则请点击“在 Safari ”中打开。
+- 将 teachermate 文件夹放入 JSBox 中。请[点击链接](https://xteko.com/redir?name=teachermate&url=https://github.com/BeBeBerr/teachermate-check-in/releases/download/v1.1/teachermate.box)扫描二维码优雅地安装脚本。你可以在 JSBox 或系统相机中扫码，若使用微信扫描二维码，则请点击`在 Safari 中打开`。
 - 微信中打开微助教服务号，点击“我的”、“我的信息”、“个人信息”。进入详情页后，点击右上角省略号图标，点击复制链接按钮。
 
 <img src="https://raw.githubusercontent.com/BeBeBerr/teachermate-check-in/master/img/1.PNG" style="zoom:40%" />
@@ -27,11 +27,15 @@
 
   <img src="https://raw.githubusercontent.com/BeBeBerr/teachermate-check-in/master/img/5.PNG" style="zoom:40%" />
 
+- 运行脚本时，屏幕不会自动休眠。
+
+- 签到成功后，会弹出提示框，并显示名次。
+
 ## 注意
 
 - 程序还不完善，许多边界条件还没有考虑到，请不要过分信赖。
-- 目前，连续尝试 20 次后会停止尝试。你可以在 `main.js` 中把相应的判断语句修改成你希望的次数。但是，长时间、高频率的签到行为可能存在风险。
-- 签到成功后，会弹出提示框，并显示名次。
+- 目前，连续尝试 20 次后会停止尝试。你可以在 `main.js` 中把相应的判断语句修改成你希望的次数。但是，长时间、高频率的签到行为**可能存在风险**。
+- 每次使用前，都请重新复制一次链接，因为微助教的 openid 每隔一段时间就会自动失效。
 - 可以用来抢第一，不要逃课哦！
 
 ## 什么是 JSBox ？
